@@ -71,7 +71,7 @@ public class Calculator {
         return textResult;
     }
 
-    private static void Calculate(List<Float> numbers, List<String> operations) {
+   public static void Calculate(List<Float> numbers, List<String> operations) {
 
         if (numbers.size() == 1) {
             finalResult = numbers.get(0);
